@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> Quantiphi </h1>
+        
+          <label for="productname">Product Name :</label>
+          <input type="text" id="productname" name="productname">
+        
+          <label for="uom">Unit of Measurement :</label>
+          <input type="text" id="uom" name="uom">
+
+          <label for="price">Price :</label>
+          <input type="text" id="price" name="price">
+          
+         <label for="proddesc">Product Description</label>
+          <textarea id="proddesc" name="proddesc"></textarea>
+        <div>
+          <img src="quantiphi.jpeg" alt="Quanptihi" width="460" height="180">
+        </div>
+        <!-- <div class="upload-btn">
+          <button class="btn">Upload a file</button>
+          <input type="file" name="myfile" />
+        </div> -->
+        <input type="file" id="actual-btn" hidden/>
+        <label style = "text-align: center; font-style: bold; " class = "filebutton" for="actual-btn">Choose File</label>
+        <div class= "flex-container">
+          <div>
+            <button class="button1" type="submit">Save</button>
+          </div>
+          <div>
+            <button class="button1" type="submit">Reset</button>
+          </div>
+        </div>
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
